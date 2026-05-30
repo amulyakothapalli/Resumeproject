@@ -1,49 +1,40 @@
-# Resume ATS Score Checker
+# ResumeIQ – AI Powered ATS Resume Analyzer
 
-## Overview
-This project is an **ATS (Applicant Tracking System) Resume Score Checker** built using Python. It analyzes resumes and evaluates how well they match ATS standards used in modern recruitment systems. The tool provides a compatibility score and highlights improvement areas to help users optimize their resumes for better job opportunities.
-
----
+ResumeIQ is a smart ATS Resume Analyzer built using Python and Streamlit. It helps students and job seekers analyze resumes, calculate ATS scores, detect technical skills, and receive career recommendations.
 
 ## Features
-- Resume text extraction and analysis
-- ATS compatibility scoring system
-- Keyword matching with job requirements
-- Skill and content evaluation
-- Suggestions for resume improvement
-- Simple and lightweight Python implementation
 
----
+* ATS Resume Score
+* Resume Improvement Suggestions
+* Skill Detection
+* Career Domain Recommendations
+* Company Suggestions
+* Resume Analytics Dashboard
 
 ## Technologies Used
-- Python
-- Natural Language Processing (basic text processing)
-- File Handling (PDF/TXT input support if applicable)
-- Data analysis logic
 
----
+* Python
+* Streamlit
+* Pandas
+* Plotly
+* PyPDF2
+* Python-docx
 
-## Project Objective
-The main objective of this project is to help candidates understand how well their resume performs in ATS-based recruitment systems and improve their chances of getting shortlisted.
+## Installation
 
----
+pip install -r requirements.txt
 
-## How It Works
-1. User uploads or inputs resume text  
-2. System extracts and processes the content  
-3. Keywords and skills are compared with ATS requirements  
-4. A score is generated based on relevance  
-5. Suggestions are provided for improvement  
+## Run the Project
 
----
+streamlit run app.py
 
 ## Future Improvements
-- PDF resume parsing enhancement
-- Machine learning-based scoring model
-- Job description matching feature
-- Web-based interface using Flask/Django
-- Resume optimization suggestions using AI
 
----
+* AI-based Resume Analysis
+* Job Recommendation System
+* Resume Templates
+* Authentication System
 
-## Project Structure
+## Author
+
+Amulya Kothapalli
